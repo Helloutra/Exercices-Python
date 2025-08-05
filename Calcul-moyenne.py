@@ -2,8 +2,8 @@ moyenne = 0
 somme = 0
 nb_notes = 0
 while True:
-    note = input("Entrez une note sur 20 (ou 'x' pour quitter) : ")
-    if note.lower() == 'x':
+    note = input("Entrez une note sur 20 (ou 'q' pour quitter) : ")
+    if note.lower() == 'q':
         break
     try:
         note = float(note)
